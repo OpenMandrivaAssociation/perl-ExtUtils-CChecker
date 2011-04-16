@@ -12,6 +12,7 @@ Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://search.cpan.org/CPAN/authors/id/P/PE/PEVANS/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires: perl(ExtUtils::CBuilder)
+BuildRequires: perl(File::Slurp)
 BuildRequires: perl(Module::Build)
 BuildRequires: perl(Test::Exception)
 BuildRequires: perl(Test::Fatal)
