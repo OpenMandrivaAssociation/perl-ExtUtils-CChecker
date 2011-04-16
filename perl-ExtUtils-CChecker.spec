@@ -14,6 +14,7 @@ Source0:    http://search.cpan.org/CPAN/authors/id/P/PE/PEVANS/%{upstream_name}-
 BuildRequires: perl(ExtUtils::CBuilder)
 BuildRequires: perl(Module::Build)
 BuildRequires: perl(Test::Exception)
+BuildRequires: perl(Test::Fatal)
 BuildRequires: perl(Test::More)
 BuildRequires: perl(Module::Build::Compat)
 BuildArch: noarch
