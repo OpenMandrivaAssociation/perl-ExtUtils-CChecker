@@ -13,6 +13,7 @@ Source0:    http://search.cpan.org/CPAN/authors/id/P/PE/PEVANS/%{upstream_name}-
 
 BuildRequires: perl(ExtUtils::CBuilder)
 BuildRequires: perl(File::Slurp)
+BuildRequires: perl(List::MoreUtils)
 BuildRequires: perl(Module::Build)
 BuildRequires: perl(Test::Exception)
 BuildRequires: perl(Test::Fatal)
