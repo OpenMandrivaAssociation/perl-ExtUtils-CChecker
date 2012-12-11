@@ -62,3 +62,40 @@ rm -rf %buildroot
 %perl_vendorlib/*
 
 
+
+
+%changelog
+* Mon Mar 26 2012 Götz Waschk <waschk@mandriva.org> 0.80.0-1mdv2012.0
++ Revision: 786887
+- update build deps
+- new version
+
+* Sat Apr 16 2011 Götz Waschk <waschk@mandriva.org> 0.70.0-1
++ Revision: 653366
+- update build deps
+- update to new version 0.07
+
+* Fri Jan 14 2011 Götz Waschk <waschk@mandriva.org> 0.60.0-1
++ Revision: 631034
+- update to new version 0.06
+
+* Wed Nov 10 2010 Götz Waschk <waschk@mandriva.org> 0.50.0-1mdv2011.0
++ Revision: 595566
+- update to new version 0.05
+
+* Sat Jul 10 2010 Götz Waschk <waschk@mandriva.org> 0.40.0-1mdv2011.0
++ Revision: 550295
+- update to new version 0.04
+
+* Tue Mar 02 2010 Götz Waschk <waschk@mandriva.org> 0.30.0-1mdv2010.1
++ Revision: 513328
+- new version
+- fix source URL
+
+* Sat Jan 30 2010 Götz Waschk <waschk@mandriva.org> 0.20.0-1mdv2010.1
++ Revision: 498473
+- import perl-ExtUtils-CChecker
+
+
+* Sat Jan 30 2010 cpan2dist 0.02-1mdv
+- initial mdv release, generated with cpan2dist
