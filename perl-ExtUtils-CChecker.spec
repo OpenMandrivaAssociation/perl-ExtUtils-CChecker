@@ -49,8 +49,9 @@ also provides assistance here.
 
 %files
 %doc Changes LICENSE README
-%{_mandir}/man3/*
-%perl_vendorlib/*
+#{_mandir}/man3/*
+#perl_vendorlib/*
+
 
 
 
