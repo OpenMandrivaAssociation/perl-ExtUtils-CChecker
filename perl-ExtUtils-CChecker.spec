@@ -40,11 +40,12 @@ also provides assistance here.
 %setup -q -n %{upstream_name}-%{upstream_version}
 
 %build
-%{__perl} Build.PL INSTALLDIRS=vendor
+perl Build.PL installdirs=vendor
 ./Build
 
 %install
-./Build install --destdir=%{buildroot}
+./Build install --destdir=%{buildroot} --create_packlist=0
+%{_fixperms} -c %{buildroot}
 
 
 %files
