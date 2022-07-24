@@ -41,16 +41,11 @@ also provides assistance here.
 
 %build
 %{__perl} Build.PL INSTALLDIRS=vendor
-
-%make
-
-%check
-%make test
+./Build
 
 %install
-%makeinstall_std
+./Build install --destdir=%{buildroot}
 
-%clean
 
 %files
 %doc Changes LICENSE README
