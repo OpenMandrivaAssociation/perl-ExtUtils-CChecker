@@ -1,9 +1,9 @@
 %define upstream_name    ExtUtils-CChecker
-%define upstream_version 0.09
+%define upstream_version 0.11
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    3
+Release:    1
 
 Summary:    Configure-time utilities for using C headers,
 License:    GPL+ or Artistic
