@@ -50,8 +50,8 @@ perl Build.PL installdirs=vendor
 
 %files
 %doc Changes LICENSE README
-#{_mandir}/man3/*
-#perl_vendorlib/*
+%{_mandir}/man3/*
+%perl_vendorlib/*
 
 
 
