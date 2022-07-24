@@ -1,4 +1,2 @@
-removed_sources:
-  ExtUtils-CChecker-0.08.tar.gz: 26eac7f7c23445c594cbf43050ad85b7939923be
 sources:
-  ExtUtils-CChecker-0.09.tar.gz: b28f9e0786be3de92dc6e29003231a957b4eeeb0
+  ExtUtils-CChecker-0.11.tar.gz: be5e58fdd7fea4d2c912cb85ecfe90debc9b4a45
