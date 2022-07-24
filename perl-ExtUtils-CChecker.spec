@@ -1,9 +1,9 @@
 %define upstream_name    ExtUtils-CChecker
-%define upstream_version 0.09
+%define upstream_version 0.11
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    3
+Release:    1
 
 Summary:    Configure-time utilities for using C headers,
 License:    GPL+ or Artistic
@@ -40,22 +40,19 @@ also provides assistance here.
 %setup -q -n %{upstream_name}-%{upstream_version}
 
 %build
-%{__perl} Makefile.PL INSTALLDIRS=vendor
-
-%make
-
-%check
-%make test
+perl Build.PL installdirs=vendor
+./Build
 
 %install
-%makeinstall_std
+./Build install --destdir=%{buildroot} --create_packlist=0
+%{_fixperms} -c %{buildroot}
 
-%clean
 
 %files
 %doc Changes LICENSE README
 %{_mandir}/man3/*
 %perl_vendorlib/*
+
 
 
 
