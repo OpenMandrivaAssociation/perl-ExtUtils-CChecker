@@ -40,7 +40,7 @@ also provides assistance here.
 %setup -q -n %{upstream_name}-%{upstream_version}
 
 %build
-%{__perl} Makefile.PL INSTALLDIRS=vendor
+%{__perl} Build.PL INSTALLDIRS=vendor
 
 %make
 
