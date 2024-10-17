@@ -8,7 +8,7 @@ Release:    2
 Summary:    Configure-time utilities for using C headers,
 License:    GPL+ or Artistic
 Group:      Development/Perl
-Url:        http://search.cpan.org/dist/%{upstream_name}
+Url:        https://search.cpan.org/dist/%{upstream_name}
 Source0:    http://search.cpan.org/CPAN/authors/id/P/PE/PEVANS/ExtUtils-CChecker-%{upstream_version}.tar.gz
 
 BuildRequires: perl(ExtUtils::CBuilder)
