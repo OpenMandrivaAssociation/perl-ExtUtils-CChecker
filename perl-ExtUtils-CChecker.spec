@@ -1,15 +1,15 @@
 %define upstream_name    ExtUtils-CChecker
-%define upstream_version 0.11
+%define upstream_version 0.12
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:    2
+Version:    %{upstream_version}
+Release:    1
 
 Summary:    Configure-time utilities for using C headers,
 License:    GPL+ or Artistic
 Group:      Development/Perl
-Url:        https://search.cpan.org/dist/%{upstream_name}
-Source0:    http://search.cpan.org/CPAN/authors/id/P/PE/PEVANS/ExtUtils-CChecker-%{upstream_version}.tar.gz
+Url:        https://metacpan.org/dist/ExtUtils-CChecker
+Source0:    https://cpan.metacpan.org/authors/id/P/PE/PEVANS/ExtUtils-CChecker-%{upstream_version}.tar.gz
 
 BuildRequires: perl(ExtUtils::CBuilder)
 BuildRequires: perl(File::Slurp)
